@@ -1,0 +1,11 @@
+/Pods
+/Podfile.lock
+/BikeFinder.xcodeproj
+*.pbxproj
+*.xcworkspacedata
+*.plist
+*.resolved
+*.pbxproj
+*.plist
+*.plist
+*.pbxproj

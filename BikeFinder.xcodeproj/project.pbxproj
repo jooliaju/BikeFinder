@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A798A9DC8DEBC17B9E51C13 /* libPods-BikeFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4053E13761ACD42D43F5475 /* libPods-BikeFinder.a */; };
+		B421BC4F2AB8822900556280 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B421BC4E2AB8822900556280 /* Podfile */; };
 		B42C6BE72AA7609D00BC9829 /* BikeFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C6BE62AA7609D00BC9829 /* BikeFinderApp.swift */; };
 		B42C6BE92AA7609D00BC9829 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C6BE82AA7609D00BC9829 /* ContentView.swift */; };
 		B42C6BEB2AA7609F00BC9829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42C6BEA2AA7609F00BC9829 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		B42C6BF82AA7609F00BC9829 /* BikeFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C6BF72AA7609F00BC9829 /* BikeFinderTests.swift */; };
 		B42C6C022AA7609F00BC9829 /* BikeFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C6C012AA7609F00BC9829 /* BikeFinderUITests.swift */; };
 		B42C6C042AA7609F00BC9829 /* BikeFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C6C032AA7609F00BC9829 /* BikeFinderUITestsLaunchTests.swift */; };
+		B4A017C52ACC778500F4DA14 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A017C42ACC778500F4DA14 /* Color+Hex.swift */; };
 		B4AAE89D2AA86C930015722C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4AAE89C2AA86C920015722C /* GoogleService-Info.plist */; };
 		B4BBC3D52AAF2C6E00ED444B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BBC3D42AAF2C6E00ED444B /* LoginView.swift */; };
 		B4E5B1B52AA9C3BF0042F48A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B4E5B1B42AA9C3BF0042F48A /* FirebaseAnalytics */; };
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1823BAACB1F9603522E94341 /* Pods-BikeFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinder.debug.xcconfig"; path = "Target Support Files/Pods-BikeFinder/Pods-BikeFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		B4053E13761ACD42D43F5475 /* libPods-BikeFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BikeFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B421BC4E2AB8822900556280 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B42C6BE32AA7609D00BC9829 /* BikeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42C6BE62AA7609D00BC9829 /* BikeFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeFinderApp.swift; sourceTree = "<group>"; };
 		B42C6BE82AA7609D00BC9829 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,11 +59,13 @@
 		B42C6BFD2AA7609F00BC9829 /* BikeFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42C6C012AA7609F00BC9829 /* BikeFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeFinderUITests.swift; sourceTree = "<group>"; };
 		B42C6C032AA7609F00BC9829 /* BikeFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4A017C42ACC778500F4DA14 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		B4AAE89C2AA86C920015722C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B4BBC3D42AAF2C6E00ED444B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B4E5B1BC2AA9E6840042F48A /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		B4E5B1BE2AA9E9450042F48A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		B4E5B1C02AA9E96F0042F48A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FF63DD9ECE160080161A27E5 /* Pods-BikeFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinder.release.xcconfig"; path = "Target Support Files/Pods-BikeFinder/Pods-BikeFinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,7 @@
 				B4E5B1BB2AA9C3BF0042F48A /* FirebaseFirestore in Frameworks */,
 				B4E5B1B52AA9C3BF0042F48A /* FirebaseAnalytics in Frameworks */,
 				B4E5B1B72AA9C3BF0042F48A /* FirebaseAuth in Frameworks */,
+				8A798A9DC8DEBC17B9E51C13 /* libPods-BikeFinder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,10 +101,13 @@
 		B42C6BDA2AA7609D00BC9829 = {
 			isa = PBXGroup;
 			children = (
+				B421BC4E2AB8822900556280 /* Podfile */,
 				B42C6BE52AA7609D00BC9829 /* BikeFinder */,
 				B42C6BF62AA7609F00BC9829 /* BikeFinderTests */,
 				B42C6C002AA7609F00BC9829 /* BikeFinderUITests */,
 				B42C6BE42AA7609D00BC9829 /* Products */,
+				F947EA2E8DCCE1BBA6CD3772 /* Pods */,
+				C08E9E7C0532B8BAD5355A39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +133,7 @@
 				B4E5B1BE2AA9E9450042F48A /* SignUpView.swift */,
 				B4E5B1C02AA9E96F0042F48A /* MainView.swift */,
 				B4BBC3D42AAF2C6E00ED444B /* LoginView.swift */,
+				B4A017C42ACC778500F4DA14 /* Color+Hex.swift */,
 			);
 			path = BikeFinder;
 			sourceTree = "<group>";
@@ -150,6 +163,23 @@
 			path = BikeFinderUITests;
 			sourceTree = "<group>";
 		};
+		C08E9E7C0532B8BAD5355A39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4053E13761ACD42D43F5475 /* libPods-BikeFinder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F947EA2E8DCCE1BBA6CD3772 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1823BAACB1F9603522E94341 /* Pods-BikeFinder.debug.xcconfig */,
+				FF63DD9ECE160080161A27E5 /* Pods-BikeFinder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B42C6C072AA7609F00BC9829 /* Build configuration list for PBXNativeTarget "BikeFinder" */;
 			buildPhases = (
+				EBBB99CAA925C26B8AAE443F /* [CP] Check Pods Manifest.lock */,
 				B42C6BDF2AA7609D00BC9829 /* Sources */,
 				B42C6BE02AA7609D00BC9829 /* Frameworks */,
 				B42C6BE12AA7609D00BC9829 /* Resources */,
+				287D2935FF2AE4270621A209 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +297,7 @@
 			files = (
 				B42C6BEE2AA7609F00BC9829 /* Preview Assets.xcassets in Resources */,
 				B42C6BEB2AA7609F00BC9829 /* Assets.xcassets in Resources */,
+				B421BC4F2AB8822900556280 /* Podfile in Resources */,
 				B4AAE89D2AA86C930015722C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,11 +318,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		287D2935FF2AE4270621A209 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BikeFinder/Pods-BikeFinder-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BikeFinder/Pods-BikeFinder-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BikeFinder/Pods-BikeFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBBB99CAA925C26B8AAE443F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BikeFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B42C6BDF2AA7609D00BC9829 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A017C52ACC778500F4DA14 /* Color+Hex.swift in Sources */,
 				B4BBC3D52AAF2C6E00ED444B /* LoginView.swift in Sources */,
 				B4E5B1BF2AA9E9450042F48A /* SignUpView.swift in Sources */,
 				B42C6BE92AA7609D00BC9829 /* ContentView.swift in Sources */,
@@ -448,6 +524,7 @@
 		};
 		B42C6C082AA7609F00BC9829 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1823BAACB1F9603522E94341 /* Pods-BikeFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +538,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,6 +554,7 @@
 		};
 		B42C6C092AA7609F00BC9829 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF63DD9ECE160080161A27E5 /* Pods-BikeFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -489,6 +568,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

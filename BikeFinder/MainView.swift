@@ -6,28 +6,89 @@
 //
 
 import SwiftUI
+import GoogleMaps
+import CoreLocation
 
+//write an addiion function that returns the result
+
+
+struct GoogleMapView: UIViewRepresentable{
+    
+    let manager = CLLocationManager()
+    
+    func makeUIView(context: Context) -> GMSMapView {
+        
+//TODO: remove this?
+//        manager.requestWhenInUseAuthorization()
+//        manager.startUpdatingLocation()
+//
+//        let camera = GMSCameraPosition.camera(withLatitude: -33.86, longitude: 151.20, zoom: 4.0)
+//        let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+        
+        
+        
+            manager.requestWhenInUseAuthorization()
+            manager.startUpdatingLocation()
+
+       
+        return mapView
+    }
+
+    func updateUIView(_ uiView: GMSMapView, context: Context) {
+        // You can update the map view here if needed.
+    }
+}
+    
 struct MainView: View {
     
     @EnvironmentObject private var authModel: AuthViewModel
-    
+   
+        
     var body: some View {
-        VStack {
-            // ?? is a or b, so either show email or empty
-            Text("Hi " + (authModel.user?.email ?? "") + ":D")
-        }.toolbar {
-            ToolbarItemGroup(placement: .navigationBarLeading) {
-                Button(
-                    action: {
-                        authModel.signOut()
-                    },
-                    label: {
-                        Text("Sign Out")
-                            .bold()
-                    }
-                )
-            }
+        ZStack {
+            GoogleMapView()
+                .edgesIgnoringSafeArea(.all) // Fill the whole screen
+            
+            VStack{
+                Spacer()
+                VStack {
+                    
+                    // ?? is a or b, so either show email or empty
+                    Text("Hi " + (authModel.user?.email ?? ""))
+                        .foregroundColor(.black)
+                    
+                    Button(action: {
+                        //action
+                    }, label: {
+                        Text("Remember where you put your bike")
+                            .foregroundColor(.black)
+                            .padding()
+                            .background(Color(hex: "FFD875"))
+                            .cornerRadius(30)
+                    })
+                    .padding()
+                    
+                    
+                    
+                    Button(
+                        action: {
+                            authModel.signOut()
+                        },
+                        label: {
+                            Text("Sign Out")
+                                .bold()
+                        }
+                    )
+                }
+                .frame(maxWidth: .infinity, maxHeight: 200)
+                .background(Color(hex: "#F8F7F4"))
+                .cornerRadius(30)
+
+            }.edgesIgnoringSafeArea(.all)
+
+
         }
+    
     }
 }
 
