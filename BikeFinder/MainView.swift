@@ -9,35 +9,6 @@ import SwiftUI
 import GoogleMaps
 import CoreLocation
 
-//write an addiion function that returns the result
-
-
-struct GoogleMapView: UIViewRepresentable{
-    
-    let manager = CLLocationManager()
-    
-    func makeUIView(context: Context) -> GMSMapView {
-        
-//TODO: remove this?
-//        manager.requestWhenInUseAuthorization()
-//        manager.startUpdatingLocation()
-//
-//        let camera = GMSCameraPosition.camera(withLatitude: -33.86, longitude: 151.20, zoom: 4.0)
-//        let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
-        
-        
-        
-            manager.requestWhenInUseAuthorization()
-            manager.startUpdatingLocation()
-
-       
-        return mapView
-    }
-
-    func updateUIView(_ uiView: GMSMapView, context: Context) {
-        // You can update the map view here if needed.
-    }
-}
     
 struct MainView: View {
     

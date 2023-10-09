@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A798A9DC8DEBC17B9E51C13 /* libPods-BikeFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4053E13761ACD42D43F5475 /* libPods-BikeFinder.a */; };
+		B416C3FB2AD4295600022501 /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B416C3FA2AD4295600022501 /* GoogleMapView.swift */; };
 		B421BC4F2AB8822900556280 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B421BC4E2AB8822900556280 /* Podfile */; };
 		B42C6BE72AA7609D00BC9829 /* BikeFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C6BE62AA7609D00BC9829 /* BikeFinderApp.swift */; };
 		B42C6BE92AA7609D00BC9829 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42C6BE82AA7609D00BC9829 /* ContentView.swift */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		1823BAACB1F9603522E94341 /* Pods-BikeFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinder.debug.xcconfig"; path = "Target Support Files/Pods-BikeFinder/Pods-BikeFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		B4053E13761ACD42D43F5475 /* libPods-BikeFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BikeFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B416C3FA2AD4295600022501 /* GoogleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
 		B421BC4E2AB8822900556280 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B42C6BE32AA7609D00BC9829 /* BikeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42C6BE62AA7609D00BC9829 /* BikeFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeFinderApp.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				B4E5B1C02AA9E96F0042F48A /* MainView.swift */,
 				B4BBC3D42AAF2C6E00ED444B /* LoginView.swift */,
 				B4A017C42ACC778500F4DA14 /* Color+Hex.swift */,
+				B416C3FA2AD4295600022501 /* GoogleMapView.swift */,
 			);
 			path = BikeFinder;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B416C3FB2AD4295600022501 /* GoogleMapView.swift in Sources */,
 				B4A017C52ACC778500F4DA14 /* Color+Hex.swift in Sources */,
 				B4BBC3D52AAF2C6E00ED444B /* LoginView.swift in Sources */,
 				B4E5B1BF2AA9E9450042F48A /* SignUpView.swift in Sources */,
@@ -533,6 +537,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BikeFinder/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please enable location services";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please enable location services while using app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -563,6 +569,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BikeFinder/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please enable location services";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please enable location services while using app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
