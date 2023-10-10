@@ -27,6 +27,19 @@
 		B4E5B1BD2AA9E6840042F48A /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5B1BC2AA9E6840042F48A /* AuthViewModel.swift */; };
 		B4E5B1BF2AA9E9450042F48A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5B1BE2AA9E9450042F48A /* SignUpView.swift */; };
 		B4E5B1C12AA9E96F0042F48A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5B1C02AA9E96F0042F48A /* MainView.swift */; };
+		B4EF6BA62AD46A9600610D17 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF6BA52AD46A9600610D17 /* CameraView.swift */; };
+		B4EF6BA82AD4AD9000610D17 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF6BA72AD4AD9000610D17 /* DataModel.swift */; };
+		B4EF6BAB2AD4ADE500610D17 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF6BAA2AD4ADE500610D17 /* Camera.swift */; };
+		B4EF6BAD2AD4AE0900610D17 /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF6BAC2AD4AE0900610D17 /* ThumbnailView.swift */; };
+		B4EF6BAF2AD4AE8A00610D17 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF6BAE2AD4AE8A00610D17 /* PhotoLibrary.swift */; };
+		B4EF6BB12AD4AF2900610D17 /* PhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF6BB02AD4AF2900610D17 /* PhotoCollectionView.swift */; };
+		B4EF6BB32AD4AF4200610D17 /* PhotoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF6BB22AD4AF4200610D17 /* PhotoItemView.swift */; };
+		B4EF6BB52AD4AF6B00610D17 /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF6BB42AD4AF6B00610D17 /* PhotoAssetCollection.swift */; };
+		B4EF6BB72AD4AF7F00610D17 /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF6BB62AD4AF7F00610D17 /* PhotoAsset.swift */; };
+		B4EF6BB92AD4AF9D00610D17 /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF6BB82AD4AF9D00610D17 /* CachedImageManager.swift */; };
+		B4EF6BBB2AD4B01600610D17 /* ViewfinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF6BBA2AD4B01600610D17 /* ViewfinderView.swift */; };
+		B4EF6BBD2AD4B04400610D17 /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF6BBC2AD4B04400610D17 /* PhotoCollection.swift */; };
+		B4EF6BBF2AD4B06600610D17 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF6BBE2AD4B06600610D17 /* PhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +80,20 @@
 		B4E5B1BC2AA9E6840042F48A /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		B4E5B1BE2AA9E9450042F48A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		B4E5B1C02AA9E96F0042F48A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B4EF6BA52AD46A9600610D17 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		B4EF6BA72AD4AD9000610D17 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		B4EF6BAA2AD4ADE500610D17 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		B4EF6BAC2AD4AE0900610D17 /* ThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		B4EF6BAE2AD4AE8A00610D17 /* PhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
+		B4EF6BB02AD4AF2900610D17 /* PhotoCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionView.swift; sourceTree = "<group>"; };
+		B4EF6BB22AD4AF4200610D17 /* PhotoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItemView.swift; sourceTree = "<group>"; };
+		B4EF6BB42AD4AF6B00610D17 /* PhotoAssetCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAssetCollection.swift; sourceTree = "<group>"; };
+		B4EF6BB62AD4AF7F00610D17 /* PhotoAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAsset.swift; sourceTree = "<group>"; };
+		B4EF6BB82AD4AF9D00610D17 /* CachedImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImageManager.swift; sourceTree = "<group>"; };
+		B4EF6BBA2AD4B01600610D17 /* ViewfinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewfinderView.swift; sourceTree = "<group>"; };
+		B4EF6BBC2AD4B04400610D17 /* PhotoCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollection.swift; sourceTree = "<group>"; };
+		B4EF6BBE2AD4B06600610D17 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		B4EF6BC02AD5363A00610D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FF63DD9ECE160080161A27E5 /* Pods-BikeFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeFinder.release.xcconfig"; path = "Target Support Files/Pods-BikeFinder/Pods-BikeFinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +153,8 @@
 		B42C6BE52AA7609D00BC9829 /* BikeFinder */ = {
 			isa = PBXGroup;
 			children = (
+				B4EF6BC02AD5363A00610D17 /* Info.plist */,
+				B4EF6BA92AD4ADAD00610D17 /* camera */,
 				B4AAE89C2AA86C920015722C /* GoogleService-Info.plist */,
 				B42C6BE62AA7609D00BC9829 /* BikeFinderApp.swift */,
 				B42C6BE82AA7609D00BC9829 /* ContentView.swift */,
@@ -164,6 +193,26 @@
 				B42C6C032AA7609F00BC9829 /* BikeFinderUITestsLaunchTests.swift */,
 			);
 			path = BikeFinderUITests;
+			sourceTree = "<group>";
+		};
+		B4EF6BA92AD4ADAD00610D17 /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				B4EF6BA72AD4AD9000610D17 /* DataModel.swift */,
+				B4EF6BA52AD46A9600610D17 /* CameraView.swift */,
+				B4EF6BAA2AD4ADE500610D17 /* Camera.swift */,
+				B4EF6BAC2AD4AE0900610D17 /* ThumbnailView.swift */,
+				B4EF6BAE2AD4AE8A00610D17 /* PhotoLibrary.swift */,
+				B4EF6BB02AD4AF2900610D17 /* PhotoCollectionView.swift */,
+				B4EF6BB22AD4AF4200610D17 /* PhotoItemView.swift */,
+				B4EF6BB42AD4AF6B00610D17 /* PhotoAssetCollection.swift */,
+				B4EF6BB62AD4AF7F00610D17 /* PhotoAsset.swift */,
+				B4EF6BB82AD4AF9D00610D17 /* CachedImageManager.swift */,
+				B4EF6BBA2AD4B01600610D17 /* ViewfinderView.swift */,
+				B4EF6BBC2AD4B04400610D17 /* PhotoCollection.swift */,
+				B4EF6BBE2AD4B06600610D17 /* PhotoView.swift */,
+			);
+			path = camera;
 			sourceTree = "<group>";
 		};
 		C08E9E7C0532B8BAD5355A39 /* Frameworks */ = {
@@ -368,12 +417,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4EF6BB32AD4AF4200610D17 /* PhotoItemView.swift in Sources */,
+				B4EF6BB92AD4AF9D00610D17 /* CachedImageManager.swift in Sources */,
+				B4EF6BAB2AD4ADE500610D17 /* Camera.swift in Sources */,
+				B4EF6BAF2AD4AE8A00610D17 /* PhotoLibrary.swift in Sources */,
 				B416C3FB2AD4295600022501 /* GoogleMapView.swift in Sources */,
+				B4EF6BBB2AD4B01600610D17 /* ViewfinderView.swift in Sources */,
+				B4EF6BBD2AD4B04400610D17 /* PhotoCollection.swift in Sources */,
+				B4EF6BB12AD4AF2900610D17 /* PhotoCollectionView.swift in Sources */,
+				B4EF6BB72AD4AF7F00610D17 /* PhotoAsset.swift in Sources */,
+				B4EF6BBF2AD4B06600610D17 /* PhotoView.swift in Sources */,
 				B4A017C52ACC778500F4DA14 /* Color+Hex.swift in Sources */,
 				B4BBC3D52AAF2C6E00ED444B /* LoginView.swift in Sources */,
+				B4EF6BA62AD46A9600610D17 /* CameraView.swift in Sources */,
 				B4E5B1BF2AA9E9450042F48A /* SignUpView.swift in Sources */,
+				B4EF6BA82AD4AD9000610D17 /* DataModel.swift in Sources */,
 				B42C6BE92AA7609D00BC9829 /* ContentView.swift in Sources */,
+				B4EF6BB52AD4AF6B00610D17 /* PhotoAssetCollection.swift in Sources */,
 				B42C6BE72AA7609D00BC9829 /* BikeFinderApp.swift in Sources */,
+				B4EF6BAD2AD4AE0900610D17 /* ThumbnailView.swift in Sources */,
 				B4E5B1C12AA9E96F0042F48A /* MainView.swift in Sources */,
 				B4E5B1BD2AA9E6840042F48A /* AuthViewModel.swift in Sources */,
 			);
@@ -535,16 +597,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BikeFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = WHTP766KU5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BikeFinder/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please enable camera usage";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please enable location services";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please enable location services while using app";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please enable access to photo album";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -567,16 +633,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BikeFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = WHTP766KU5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BikeFinder/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please enable camera usage";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please enable location services";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please enable location services while using app";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please enable access to photo album";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

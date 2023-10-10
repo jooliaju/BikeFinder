@@ -47,7 +47,7 @@ struct GoogleMapView: UIViewRepresentable{
             
             func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
                 guard let location = locations.last else { return }
-                let camera = GMSCameraPosition.camera(withLatitude: location.coordinate.latitude, longitude: location.coordinate.longitude, zoom: 5.0)
+                let camera = GMSCameraPosition.camera(withLatitude: location.coordinate.latitude, longitude: location.coordinate.longitude, zoom: 10.0)
                 parent.mapView.camera = camera
                 
             }

@@ -26,21 +26,17 @@ struct MainView: View {
                     
                     // ?? is a or b, so either show email or empty
                     Text("Hi " + (authModel.user?.email ?? ""))
-                        .foregroundColor(.black)
+                    .foregroundColor(.black)
                     
-                    Button(action: {
-                        //action
-                    }, label: {
-                        Text("Remember where you put your bike")
-                            .foregroundColor(.black)
+                    NavigationLink(destination: CameraView()) {
+                        Text("Camera")
+                            .font(.headline)
                             .padding()
-                            .background(Color(hex: "FFD875"))
-                            .cornerRadius(30)
-                    })
-                    .padding()
-                    
-                    
-                    
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
+
                     Button(
                         action: {
                             authModel.signOut()
